@@ -11,15 +11,40 @@
 body {
     font: 14px "Poppins";
     color: #414042;
-}
-h1, h2 {    
-    text-align: center;
-    color:#35023D;  
-    text-shadow: 3px 3px 7px #666666;  
-}
-h2 {
-    font-size: 1.7em;
+    background: #f9f9f9;
 }
 .centrovany {
     text-align: center;
+}
+article header {
+    height: 70px;
+}
+article {
+    max-width: 960px;
+    margin: 0 auto;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: #35023D;
+}
+article h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+article h2 {
+    font-size: 2em;
+}
+article section p {
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
 }
