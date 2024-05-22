@@ -13,8 +13,11 @@ body {
     color: #414042;
     background: #f9f9f9;
 }
-.centrovany {
-    text-align: center;
+.avatar {
+    float: right;
+    width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1);
 }
 article header {
     height: 70px;
@@ -47,4 +50,7 @@ article section p {
 
 article section a {
     color: #EF6534;
+}
+.cistic {
+    clear: both;
 }
