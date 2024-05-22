@@ -9,9 +9,11 @@
     font-weight: bold;
 }¨
 body {
+    box-sizing: border-box;
     font: 14px "Poppins";
     color: #414042;
     background: #f9f9f9;
+    margin: 0;
 }
 .avatar {
     float: right;
@@ -32,13 +34,16 @@ article h3,
 article h4,
 article h5,
 article h6 {
+    padding: 10px 0;
     color: #35023D;
 }
 article h1 {
+    margin: 0;
     font-size: 2.3em;
     font-weight: bold;
     text-transform: uppercase;
     width: max-content;
+    border-bottom: 4px solid #eb5735;
 }
 
 article h2 {
@@ -46,6 +51,11 @@ article h2 {
 }
 article section p {
     line-height: 1.8em;
+    margin-bottom: 1.5em;
+}
+
+{article
+    padding: 50px 50px 10px 50px;
 }
 
 article section a {
@@ -53,4 +63,65 @@ article section a {
 }
 .cistic {
     clear: both;
+}
+.reference-tlacitko {
+    background: #70b73a;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #42006b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;    
+}
+#logo {
+    height: 40px;
+    margin: auto 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('obrazky/logo.png') no-repeat;
+    background-size: 40px 40px;
+}
+#logo > * {
+    margin: 0 0 0 50px;
+}
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+#logo h1 span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #EF6534;
 }
